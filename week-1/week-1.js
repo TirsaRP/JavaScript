@@ -54,7 +54,7 @@ console.log(typeof b);
 console.log(typeof c);
 console.log(typeof d);
 
-//confused with 8.3-8.6
+// 8.3-8.6
 if (typeof a !== typeof b) {
     console.log('NOT SAME TYPE');
 }
