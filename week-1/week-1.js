@@ -63,7 +63,7 @@ if (typeof a !== typeof d) {
 }
 
 
-let x=7;
+var x=7;
 x= x % 3; 
 x= 1;
 console.log("% is an arithmetic operator");
