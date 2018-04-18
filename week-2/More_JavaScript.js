@@ -182,13 +182,13 @@ let y = [1, 2, 3];
 let z = y;
 //What do you think will happen with x == y, x === y and z == y and z == x? Prove it!
 
-if (x == y) {                                       //same   *why is it not the same?
+if (x == y) {                                       //not the same       *why is it not the same?
     console.log("same");
 } else {
     console.log("not the same");
 }
 
-console.log(x === y ? "same" : "not the same");           //same    * why is it not the same? 
+console.log(x === y ? "same" : "not the same");           //not the same   * why is it not the same?  because of the === (strict)?
 
 console.log(z == y ? "same" : "not the same");            //same
 
